@@ -8,9 +8,11 @@ public class power {
         System.out.println("Enter power:");
         int power = sc.nextInt();
 
+        int result = 1 ;
+
         for(int i = 1 ; i<= power ; i++){
-            number = number*number ;
+            result = result * number ;
         }
-        System.out.println("Power of number is"+ number);
+        System.out.println("Power of number is "+result);
     }
 }
